@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>  
+<html>
+<head>
+	<title>Choose an Action</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>  
+
+<h2>Pi Signage Web-UI - Main Menu</h2>
+<form action="chooseAction.php" method="post">  
+<h3>What would you like to do?</h3>
+<input type="radio" name="targetAction" value="slideshow">Update slideshow link<br>
+<input type="radio" name="targetAction" value="refresh">Refresh slideshow or switch between slideshow mode and video mode<br>
+<input type="radio" name="targetAction" value="omxplayer">Update video player link<br>
+<input type="radio" name="targetAction" value="display">Control the attached display<br>
+<input type="submit" name="formSubmit" value="Submit" />
+</form>
+</body>
+</html>
